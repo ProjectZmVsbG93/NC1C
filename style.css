@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  max-width: 600px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+}
